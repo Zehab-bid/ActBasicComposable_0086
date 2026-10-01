@@ -15,3 +15,18 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun HalamanLogin(modifier: Modifier = Modifier) {
+    Box(modifier = Modifier.fillMaxSize()) {
+
+        Image(
+            painter = painterResource(id = R.drawable.bg_login),
+            contentDescription = "Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
+        }
+    }
+}
