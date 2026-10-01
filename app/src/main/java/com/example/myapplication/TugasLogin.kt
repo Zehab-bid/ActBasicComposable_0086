@@ -56,6 +56,27 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier.size(130.dp)
             )
 
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(
+                    text = "KingOmSe",
+                    fontSize = 16.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Red
+                )
+                Text(
+                    text = "Sehabidha Maulana",
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Blue
+                )
+                Text(
+                    text = "20240140086",
+                    fontSize = 22.sp,
+                    fontWeight = FontWeight.ExtraBold,
+                    color = Color.Black
+                )
+            }
+
         }
     }
 }
