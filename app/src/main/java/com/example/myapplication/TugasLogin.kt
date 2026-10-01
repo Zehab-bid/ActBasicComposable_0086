@@ -27,6 +27,29 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize()
         )
 
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(vertical = 40.dp, horizontal = 16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.SpaceEvenly
+        ) {
+
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(
+                    text = "Login",
+                    fontSize = 36.sp,
+                    fontWeight = FontWeight.ExtraBold,
+                    color = Color.Blue
+                )
+                Text(
+                    text = "Ini adalah halaman login",
+                    fontSize = 16.sp,
+                    fontWeight = FontWeight.Medium,
+                    color = Color.White
+                )
+            }
+
         }
     }
 }
