@@ -77,6 +77,14 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 )
             }
 
+            Image(
+                painter = painterResource(id = R.drawable.foto_bawah),
+                contentDescription = "Foto Bawah",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(220.dp)
+                    .clip(CircleShape)
+            )
         }
     }
 }
